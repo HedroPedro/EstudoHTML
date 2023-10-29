@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        * {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: auto;
+        }
+
+        h1{
+            background: darkblue;
+            color: lightblue;
+        }
+
+        #text-welcoming{
+            background: red;
+            color: white;
+        }
+
+        #explication{
+            background-color: antiquewhite;
+            color: dimgray;
+        }
+
+        .common-selectors{
+            color: red;
+            background-color: rgba(255, 255, 255, 0.945);
+        }
+
+        .m-text{
+            text-transform: uppercase;
+        }
+
+        [title |= "Streaming"]{
+            color: red;
+            font-style: italic;
+        }
+
+        [title = "Prime"]{
+            color: black;
+        }
+
+        [href^="http://"]{
+            background-color: lightgreen;
+        }
+
+        [href$="login"]{
+            background-color: aliceblue;
+        }
+
+        [href*="login"]{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Seletores CSS</h1>
+        <p id="text-welcoming">Bem-vindo!</p>
+        <p id="explication">No CSS possuímos diversos seletores sendo esses: </p>
+        <ul>
+            <li class="common-selectors m-text"><b>Seletor por Tipo:</b> busca elementos por uma tag HTML</li>
+            <li class="common-selectors m-text"><b>Seletor por ID (#):</b> busca elementos através de um id</li>
+            <li class="common-selectors"><b>Seletor por Classe (.):</b> busca elementos através de uma classe</li>
+            <li><b>Seletor Universal (*):</b> busca todos elementos</li>
+            <li><b>Seletor de Atributuo ({atrib}):</b> busca todos elementos pelo atributo</li>
+        </ul>
+        <ul>
+            <li>
+                <a title="Streaming-Netflix" href="https://www.login.netflix.com">
+                    Netflix
+                </a>
+            </li>
+            <li>
+                <a title="Streaming Prime" href="http://www.primevideo.com/login">
+                    Prime video
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
