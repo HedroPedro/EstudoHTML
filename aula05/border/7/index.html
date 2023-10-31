@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        div {
+            background-color: palevioletred;
+            width: 200px;
+            height: 200px;
+            border: 12px solid blue;
+        }
+
+        #exemplo {
+            border-image-source: url('background02.jpg');
+            border-image-slice: 169;
+            border-image-width: 10px;
+            border-image-outset: 50px 10px 30px 15px;
+        }
+
+        #exemplo-resumido {
+            border-image: url('background02.jpg') 169 / 10px 20px / 2 round;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas com imagens</h1>
+    <br>
+    <div id="exemplo"></div>
+    <br>
+    <div id="exemplo-resumido"></div>
+</body>
+</html>
