@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fontes</title>
+    <style>
+        p {
+            font-size: 35px;
+            width: 300px;
+            height: 300px;
+            background-color: lightgreen;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        #e1{
+            text-overflow: clip;
+        }
+
+        #e2{
+            text-overflow: ellipsis;
+        }
+
+        #e3{
+            text-overflow: 'ver mais';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fontes personalizadas</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+    <p id="e1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+    <p id="e2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+    <p id="e3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+</body>
+</html>

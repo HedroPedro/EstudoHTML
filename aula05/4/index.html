@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fontes</title>
+    <style>
+        p {
+            font-size: 35px;
+            width: 300px;
+            height: 300px;
+            background-color: lightgreen;
+        }
+
+        #break-word{
+            word-wrap: break-word;
+        }
+
+        #break-all{
+            -ms-word-wrap: break-all;
+        }
+
+        #kepp-all{
+            -ms-word-wrap: keep-all;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fontes personalizadas</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+    <p id="break-word">Lorem a aa ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+
+    <p id="break-all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+    <p id="keep-all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lacinia nisl. 
+        Integer pellentesque quis felis eu dictum.</p>
+</body>
+</html>
