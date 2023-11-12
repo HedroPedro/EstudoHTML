@@ -1,14 +1,14 @@
-const opcao = "DUAS VEZES";
+const opcao = 1;
 const compra = 19.5;
 let totalPagar = 0;
 
-if(opcao === "DEBITO"){
+if(opcao === 1){
     totalPagar = compra*0.9;
-}else if(opcao === "A VISTA" || opcao === "PIX"){
+}else if(opcao === 2 || opcao === 3){
     totalPagar = compra*0.85;
-}else if(opcao === "DUAS VEZES"){
+}else if(opcao === 4){
     totalPagar = compra;
-}else if(opcao === "+ DUAS VEZES"){
+}else if(opcao === 5){
     totalPagar = compra*1.1;
 }
 
