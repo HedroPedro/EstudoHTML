@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+
+        * {
+            font-weight: bolder;
+            font-size: large;
+            text-align: center;
+        }
+
+        div {
+            margin-bottom: 30px;
+            width: 300px;
+            height: 300px;
+            background-color: palevioletred;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border: 15px dashed palegreen;
+            padding: 30px;
+            
+        }
+
+        #padding-box{
+            background-clip: padding-box;
+        }
+
+        #border-box {
+            background-clip: border-box;
+        }
+
+        #content-box {
+            background-clip: content-box;
+        }
+
+        #text {
+           -webkit-background-clip: text;
+           -moz-background-clip: text;
+           color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div id="padding-box">Trilha CSS</div>
+    <div id="border-box">Trilha CSS</div>
+    <div id="content-box">Trilha CSS</div>
+    <div id="text">Trilha CSS</div>
+</body>
+</html>

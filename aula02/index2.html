@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formularios</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <h1>PIZZA DE CALABRESA</h1>
+    <form method="post">
+        <p>Quais opcionais vc deseja</p>
+        <input type="checkbox" name="opcional[]" value="queijo">+ queijo<br>
+        <input type="checkbox" name="opcional[]" value="calabresa">+ calabresa<br>
+        <input type="checkbox" name="opcional[]" value="cebola">+ calabresa<br>
+        <input type="checkbox" name="opcional[]" value="azeitona">+ azeitona<br>
+
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim">Sim<br>
+        <input type="radio" name="borda" value="nao">Não<br>
+
+        <p>Bebida</p>
+        <input name="bebida">Refrigerante
+        <input value="enviar" type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Estilizações</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #pre-definida {
+            color: darkred;            
+        }
+
+        #current-color {
+            background: transparent;
+            color: deeppink;
+            border: 2px solid currentColor;
+        }
+
+        #rgb {
+            background: rgb(255, 0 , 0);
+            color: rgb(250, 240, 0);
+        }
+
+        #rgba {
+            color: rgba(255, 0, 0, 1);
+        }
+
+        #hex {
+            color: #FF89FF;
+        }
+
+        #hexa{
+            color: #0000FFAF;
+        }
+
+        #hsl {
+            color: hsl(45, 75%, 50%);
+        } /*Grau na roda de cores, azul, 0 e 360 - vermelho; 120 - verde; 240 - azul
+            Matiz, saturação, luminosidade*/
+
+        #hsla{
+            color: hsla(0, 100%, 30%, .6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cores</h1>
+    <p>Existem várias formas de definirmos cores utilizando:</p>
+    <ul>
+        <li id="pre-definida">Cores pre definidas</li>
+        <li id="current-color">Current-color</li>
+        <li id="hex">Cores hexadecimais</li>
+        <li id="hexa">Cores hexadecimais com transparencia</li>
+        <li id="rgb">Cores rgb</li>
+        <li id="rgba">Cores rgba</li>
+        <li id="hsl">Cores hsl</li>
+        <li id="hsla">Cores hsla</li>
+    </ul>
+</body>
+</html>

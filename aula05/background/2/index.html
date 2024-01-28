@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Imagens</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        div {
+            background: black;
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #contain {
+            object-fit: contain;
+        }
+
+        #cover {
+            object-fit: cover;
+        }
+
+        #none {
+            object-fit: none;
+        }
+
+        #scale-down {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>object-fit</code></h1>
+    <code>object-fit: fill;</code> (padrão)
+    <div>
+        <img src="LOGO-DIO-COLOR.png">
+    </div>
+    <br>    
+    <div>
+        <img src="LOGO-DIO-COLOR.png" id="contain">
+    </div>
+    <br>    
+    <div>
+        <img src="LOGO-DIO-COLOR.png" id="cover">
+    </div>
+    <br>
+    <div>
+        <img src="LOGO-DIO-COLOR.png" id="none">
+    </div>
+    <br>
+    <div>
+        <img src="LOGO-DIO-COLOR.png" id="scale-down">
+    </div>
+</body>
+</html>

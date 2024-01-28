@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Imagens</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        div {
+            margin-bottom: 30px;
+            width: 300px;
+            height: 300px;
+            background-image: url('background02.jpg');
+            background-size: 120px;
+        }
+
+        #repeat-x{
+            background-repeat: repeat-x;
+        }
+
+        #repeat-y{
+            background-repeat: repeat-y;
+        }
+
+        #no-repeat{
+            background-repeat: no-repeat;
+        }
+
+        #space{
+            background-repeat: space space;
+        }
+
+        #round{
+            background-repeat: round;
+        }
+    </style>
+</head>
+<body>
+    Repeat<br>
+    <div id="repeat"></div>
+    Repeat-x<br>
+    <div id="repeat-x"></div>
+    Repeat-y<br>
+    <div id="repeat-y"></div>
+    No-repeat<br>
+    <div id="no-repeat"></div>
+    Space<br>
+    <div id="space"></div>
+    Round<br>
+    <div id="round"></div>
+</body>
+</html>
